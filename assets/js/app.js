@@ -24,7 +24,7 @@ renderButtons();
 $(document).on('click', '.super', function () {
 
     var superhero = $(this).data('name');
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + superhero + "&api_key=oPiOocOW8mxrcAdOrczzu6K9lufjRGrp&limit=25&rating=G";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + superhero + "&api_key=oPiOocOW8mxrcAdOrczzu6K9lufjRGrp&limit=25&rating=PG-13";
     $.ajax({
         url: queryURL,
         method: 'GET'
