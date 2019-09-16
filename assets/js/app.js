@@ -54,7 +54,7 @@ $(document).on('click', '.super', function () {
 });
 
 
-$(document).on('click', '.gif', function () {
+$(document).on('click', 'super-gifs', function () {
 
 
     var state = $(this).attr('data-state');
