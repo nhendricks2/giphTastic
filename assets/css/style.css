@@ -2,7 +2,7 @@
     body, html {
         position: relative;
     min-height: 100%;
-        background-image: url("https://wallpapercave.com/wp/wp2763473.jpg");
+        background-image: url(images/backgroundimage.jpg);
         background-repeat: no-repeat;
         background-size: cover;
   background-attachment: fixed;
@@ -94,3 +94,17 @@
       background-color: black;    
   }
   
+  
+
+
+
+ body {
+  font-family: 'Lora', serif;
+ }
+ 
+ h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 50px; text-decoration: none;
+ }
